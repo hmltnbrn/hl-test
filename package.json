@@ -1,0 +1,27 @@
+{
+  "name": "hook-loop-test",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.9.5"
+  },
+  "description": "Hook & Loop coding test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmltnbrn/hl-test"
+  },
+  "author": "Brian Hamilton",
+  "bugs": {
+    "url": "https://github.com/hmltnbrn/hl-test/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "jquery": "^3.1.1",
+    "path": "^0.12.7"
+  }
+}

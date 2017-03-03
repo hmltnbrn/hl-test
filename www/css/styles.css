@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  top: 0;
+  position: fixed;
+  line-height: 50px;
+  background-color: #2b79a7;
+  padding-left: 20px;
+  vertical-align: middle;
+  color: white;
+}
+
+main {
+  padding-top: 50px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#tab-container {
+  width: 25%;
+  min-width: 150px;
+  background: #f0f0f0;
+  border-top: 1px solid #dedede;
+  border-right: 2px solid #dedede;
+  height: 100%;
+  overflow: auto;
+}
+
+#content-container {
+  width: 75%;
+  height: 100%;
+  overflow: auto;
+  min-width: 200px;
+}
+
+.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.tab-button {
+  background: none;
+  color: black;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid #dedede;
+  display: flex;
+  align-items: center;
+}
+
+.tab-button div {
+  padding-left: 20px;
+}
+
+.tab-button.show {
+  background: #58a2d1;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+}
+
+.tab-content.show {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.content-button button {
+  margin: 5px;
+  padding: 10px 20px;
+}
